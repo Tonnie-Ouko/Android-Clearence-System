@@ -1,0 +1,11 @@
+ 
+						  <th>Action</th>
+						  <td>
+								<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
+									<a href="clearfaculty.php" class="btn btn-primary" name="clear" type="clear"
+										id="clear">Clear</a>
+								</form>
+						  </td>
+						  <div class="form-group"><a href="bookedfi.php" class="btn btn-primary pull-left" name="booked" type="booked"
+								id="booked">Uncleared</a> 
+						</div>

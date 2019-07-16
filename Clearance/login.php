@@ -14,8 +14,8 @@ if($num > 0){
 echo "Login Successful";
 									
 } else{
-echo "Login Failed. Try Again..";
-									
+echo "Login Failed. Try Againes"
+;									
 } 
 	
 				
